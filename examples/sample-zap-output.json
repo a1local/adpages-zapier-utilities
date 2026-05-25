@@ -1,0 +1,95 @@
+{
+  "utm": {
+    "url": "https://example.com/landing-page?utm_source=google&utm_medium=cpc&utm_campaign=perth-electrician-leads&utm_term=emergency+electrician+perth&utm_content=headline-a",
+    "parameters": {
+      "utm_source": "google",
+      "utm_medium": "cpc",
+      "utm_campaign": "perth-electrician-leads",
+      "utm_term": "emergency electrician perth",
+      "utm_content": "headline-a"
+    }
+  },
+  "adCopy": {
+    "valid": true,
+    "headlineLength": 17,
+    "descriptionLength": 48,
+    "limits": {
+      "headlineMax": 30,
+      "descriptionMax": 90
+    },
+    "issues": []
+  },
+  "localBusinessSchema": {
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Electrician",
+      "name": "Example Electrical",
+      "url": "https://example.com",
+      "telephone": "+61 8 5555 0100",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Perth",
+        "addressRegion": "WA",
+        "addressCountry": "AU"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Perth"
+        },
+        {
+          "@type": "Place",
+          "name": "Fremantle"
+        },
+        {
+          "@type": "Place",
+          "name": "Joondalup"
+        }
+      ]
+    },
+    "jsonLd": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Electrician\",\n  \"name\": \"Example Electrical\",\n  \"url\": \"https://example.com\",\n  \"telephone\": \"+61 8 5555 0100\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Perth\",\n    \"addressRegion\": \"WA\",\n    \"addressCountry\": \"AU\"\n  },\n  \"areaServed\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Perth\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Fremantle\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Joondalup\"\n    }\n  ]\n}"
+  },
+  "landingPageChecklist": {
+    "pageName": "Emergency electrician landing page",
+    "campaign": "perth-electrician-leads",
+    "checks": [
+      {
+        "id": "message_match",
+        "label": "Message match",
+        "detail": "The landing-page headline reflects the ad promise and primary keyword.",
+        "status": "todo"
+      },
+      {
+        "id": "single_primary_cta",
+        "label": "Single primary CTA",
+        "detail": "The page has one dominant conversion action above the fold.",
+        "status": "todo"
+      },
+      {
+        "id": "local_trust",
+        "label": "Local trust",
+        "detail": "The page includes location, service area, testimonials, or proof relevant to the visitor.",
+        "status": "todo"
+      },
+      {
+        "id": "mobile_speed",
+        "label": "Mobile speed",
+        "detail": "The page is usable on mobile and avoids heavy assets that slow first interaction.",
+        "status": "todo"
+      },
+      {
+        "id": "tracking_ready",
+        "label": "Tracking ready",
+        "detail": "Form submits, calls, and primary CTA clicks can be measured.",
+        "status": "todo"
+      },
+      {
+        "id": "privacy_visible",
+        "label": "Privacy visible",
+        "detail": "Forms include reasonable consent context and link to the business privacy policy.",
+        "status": "todo"
+      }
+    ],
+    "summary": "6 review items generated for Emergency electrician landing page."
+  }
+}

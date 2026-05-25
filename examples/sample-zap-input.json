@@ -1,0 +1,29 @@
+{
+  "utm": {
+    "baseUrl": "https://example.com/landing-page",
+    "source": "google",
+    "medium": "cpc",
+    "campaign": "perth-electrician-leads",
+    "term": "emergency electrician perth",
+    "content": "headline-a"
+  },
+  "adCopy": {
+    "headline": "Perth Electrician",
+    "description": "Fast electrical help from a licensed local team.",
+    "cta": "Request a quote"
+  },
+  "localBusiness": {
+    "name": "Example Electrical",
+    "url": "https://example.com",
+    "businessType": "Electrician",
+    "phone": "+61 8 5555 0100",
+    "locality": "Perth",
+    "region": "WA",
+    "country": "AU",
+    "serviceAreas": "Perth, Fremantle, Joondalup"
+  },
+  "landingPage": {
+    "pageName": "Emergency electrician landing page",
+    "campaign": "perth-electrician-leads"
+  }
+}
