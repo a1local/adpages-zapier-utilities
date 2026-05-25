@@ -1,0 +1,15 @@
+{
+  "name": "adpages-zapier-utilities",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dependency-free AdPages utility recipes for Code by Zapier and future Zapier Platform planning.",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
